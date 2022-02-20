@@ -1,4 +1,5 @@
-const API_KEY = process.env.API_KEY
+const API_KEY = process.env.API_KEY;
+export const BASE_IMAGE_URL = "https://image.tmdb.org/t/p/original";
 
 export default {
     fetchTrending: {
